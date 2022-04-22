@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Navigasi {
+    background-color: #351F39;
+    padding: 32PX;
+    display: flex;
+    align-items: center;
+}
+
+#Navigasi a {
+    color: white;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+#Navigasi a:hover {
+    color: blue;
+}
+
+
+#judul {
+    margin-right: 160px;
+}
+
+#sec1 {
+    background-color: #726A95;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#prof {
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+#nama {
+    font-size: 80px;
+    margin-bottom: 12px;
+
+}
+
+#portfolio {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#portfolio .judul {}
+
+#judul2 {
+    font-size: 60px;
+    margin-bottom: 22px;
+}
+
+#portfolio img {
+    margin: 12px;
+    object-fit: cover;
+
+}
+
+.judul {
+    font-size: 60px;
+    align-items: center;
+}
+
+.judul2 {
+    font-size: 40px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+
+#sec3 {
+    background-color: #c4D8E2;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sec3 p {
+    padding: 10px;
+}
+
+#sec4 {
+    padding: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+form input {
+    text-align: left;
+}
+
+input[type=text],
+input[type=email] {
+
+    height: 50px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #2C3E50;
+
+}
+
+
+textarea {
+    text-align: left;
+    height: 150px;
+    padding: 12ps 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #2C3E50;
+    resize: none;
+}
+
+form button {
+    background-color: #4CAF50;
+    border: none;
+    width: 100px;
+    color: white;
+    padding: 16px 32px;
+    margin-top: 50px;
+
+
+    float: left;
+
+
+}
+
+#fatas {
+    padding: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2C3E50;
+}
+
+#fkiri {
+    margin: 150px;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
+#fkanan {
+    text-align: center;
+    color: white;
+}
+
+
+#fatas button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: #2c3e5000;
+    margin: 12px;
+    color: white;
+}
+
+#fbawah {
+    background-color: #1f2d3c;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
